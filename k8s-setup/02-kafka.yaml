@@ -39,7 +39,7 @@ spec:
           value: PLAINTEXT://:9092
         - name: KAFKA_ADVERTISED_LISTENERS
           value: PLAINTEXT://kafka-broker:9092
-        image: kafka
+        image: ubuntu/kafka
         imagePullPolicy: IfNotPresent
         name: kafka-broker
         ports:
