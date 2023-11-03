@@ -1,4 +1,4 @@
-#<B>Kafka-demo</B><br>
+<B>Kafka-demo</B><br>
 <br>
 Kafka cluster creation<br>
 kubectl create ns kafka<br>
