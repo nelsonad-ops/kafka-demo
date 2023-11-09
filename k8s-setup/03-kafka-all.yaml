@@ -213,7 +213,7 @@ spec:
   - metadata:
       name: data
     spec:
-      storageClassName: portworx-sc-rep2
+      storageClassName: kafka-sc-rep2
       accessModes: [ "ReadWriteOnce" ]
       resources:
         requests:
